@@ -1,0 +1,7 @@
+.build/
+.swiftpm/
+.emulator-cache/
+.runtime-workdir/
+.vscode/
+.DS_Store
+vendor/

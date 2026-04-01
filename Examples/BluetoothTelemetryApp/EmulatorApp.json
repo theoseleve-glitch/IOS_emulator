@@ -1,0 +1,5 @@
+{
+  "product": "BluetoothTelemetryApp",
+  "module": "BluetoothTelemetryApp",
+  "registrationType": "BluetoothTelemetryRegistration"
+}
