@@ -1,3 +1,11 @@
+<!-- portfolio-clarity-intro-2026 -->
+> **Scope clarification:** This project is a **Windows-first Swift runtime and UI framework experiment**, not a working iOS simulator. It currently does **not** execute App Store applications, iOS binaries or Apple's UIKit/SwiftUI frameworks. The goal is to build and test the foundations incrementally, with reproducible CLI and Win32 demonstrations.
+>
+> **Start here:** On a supported Windows x64 host, follow [Windows Bootstrap](#windows-bootstrap), then run `swift run EmulatorHost doctor --expected-arch x64`, `swift run EmulatorHost smoke`, and `swift test`. To explore an interactive graphical window, use `swift run EmulatorHost ui-demo`.
+>
+> **Open-source contributions:** The code is MIT-licensed. See [CONTRIBUTING.md](./CONTRIBUTING.md) for reproducible issues, testing expectations and safe contribution boundaries.
+<!-- end-portfolio-clarity-intro-2026 -->
+
 # iPhone Emulator Foundation
 
 The repository now has eight completed implementation blocks, plus an active hardening track:
